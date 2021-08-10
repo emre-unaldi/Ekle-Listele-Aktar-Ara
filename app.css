@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+*{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    background: url(arkaplan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.ustAlan{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 5px 0;
+}
+.ustAlanInput{
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px 7px 5px 4px;
+    border: 1px solid rgb(238, 238, 238);
+    border-bottom: 5px solid rgb(83, 186, 255);
+    transition: border-color .6s ease-out;
+    -webkit-transition: border-color .6s ease-out;
+    -moz-transition: border-color .6s ease-out;
+    -ms-transition: border-color .6s ease-out;
+    -o-transition: border-color .6s ease-out;
+    margin: auto;
+}
+
+.ustAlanInput:hover,.ustAlanInput:focus{
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(76, 73, 247);
+}
+.Btn{
+    width: 40%;
+    /* padding: 0 5px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ekleBtn,.araBtn,.temizleBtn{
+    width: 130px;
+    height: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px 8px;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    transition: border-color .6s ease-out;
+    border-bottom: 5px solid rgb(83, 186, 255);
+    -webkit-transition: border-color .6s ease-out;
+    -moz-transition: border-color .6s ease-out;
+    -ms-transition: border-color .6s ease-out;
+    -o-transition: border-color .6s ease-out;
+}
+.ekleBtn:active{
+    border: 2px solid red;
+}
+.ekleBtn:hover,.araBtn:hover,.temizleBtn:hover{
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(76, 73, 247);
+    color: rgb(76, 73, 247);
+}
+.altAlan{
+    width: 96%;
+    margin: auto;
+    padding: 5px;
+    height: 440px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.solBlok{
+    background: rgb(138,47,191);
+    background: linear-gradient(145deg,
+    rgba(156, 52, 216, 0.6) 20%, 
+    rgba(227,69,19,0.6) 55%, 
+    rgba(243, 239, 236, 0.6) 86%);
+    background-size: cover;
+    width: 48%;
+    height: 420px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    max-height: 420px;
+    overflow-y: auto;
+}
+.sagBlok{
+    background: rgb(138,47,191);
+    background: linear-gradient(145deg,
+    rgba(156, 52, 216, 0.6) 20%, 
+    rgba(227,69,19,0.6) 55%, 
+    rgba(243, 239, 236, 0.6) 86%);
+    background-size: cover;
+    width: 48%;
+    height: 420px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    max-height: 420px;
+    overflow-y: auto;
+}
+.aktarBtn{
+    width: 85px;
+    height: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    transition: border-color .4s ease-out;
+    border-bottom: 5px solid rgb(180, 88, 88);
+    font-size: 12px;
+    -webkit-transition: border-color .4s ease-out;
+    -moz-transition: border-color .4s ease-out;
+    -ms-transition: border-color .4s ease-out;
+    -o-transition: border-color .4s ease-out;
+}
+.aktarBtn:hover{
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+} 
+
+.icerikHizala{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+} 
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}

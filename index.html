@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Ekle Listele Aktar Ara</title>
+</head>
+<body>
+    <div class="container">
+        <div class="ustAlan">
+            <input type="text" class="ustAlanInput" id="ustAlanInput" placeholder="Lütfen Değer Girin..." >
+                <div class="Btn">
+                    <button class="ekleBtn" id="ekleBtn" onclick="Listem.ekle()" >Ekle</button>
+                    <button class="araBtn" id="araBtn" onclick="Listem.ara()">Ara</button>
+                    <button class="temizleBtn" id="temizleBtn" onclick="Listem.temizle()">Temizle</button>
+                </div>
+        </div>
+        <div class="altAlan" id="altAlan">
+            <div class="solBlok" id="solBlok"></div>
+            <div class="sagBlok" id="sagBlok"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
